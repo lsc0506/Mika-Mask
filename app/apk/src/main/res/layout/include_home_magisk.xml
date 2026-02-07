@@ -82,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:barrierDirection="bottom"
-                app:referencedIds="home_magisk_title,home_magisk_button"
+                app:constraint_referencedIds="home_magisk_title,home_magisk_button"
                 tools:constraint_referenced_ids="home_magisk_title,home_magisk_button" />
 
             <HorizontalScrollView
