@@ -1,58 +1,59 @@
-![](docs/images/logo.png)
+# 𝑴𝒊𝒌𝒂 𝑴𝒂𝒔𝒌 
+<img align='right' src='docs/images/logo.png' width='379px' alt="mask logo">
+
+一个 Android 上的用户级 root 方案，分支于Magisk Alpha，添加了一些界面上的变更。因为本人没有编程基础，且最近才开始接触Android和Kotlin，所以能力有限。做出来的项目可能有些问题，比如配色单一、布局瑕疵等等。欢迎大家指正，我会努力学习并改进的。
 
 [![Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Downloads&query=totalString&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftopjohnwu%2Fmagisk-files%2Fcount%2Fcount.json&cacheSeconds=1800)](https://raw.githubusercontent.com/topjohnwu/magisk-files/count/count.json)
 
-#### This is not an officially supported Google product
+## ✨ 功能特性
 
-## Introduction
+> **🎯 新控件/新配色** - 更美观的界面
 
-Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 6.0.<br>
-Some highlight features:
+- MagiskSU为应用程序提供根权限
 
-- **MagiskSU**: Provide root access for applications
-- **Magisk Modules**: Modify read-only partitions by installing modules
-- **MagiskBoot**: The most complete tool for unpacking and repacking Android boot images
-- **Zygisk**: Run code in every Android applications' processes
+- Magisk模块能够通过安装模块修改只读分区
 
-## Downloads
+- MagiskBoot是最完整的 Android 启动镜像解压和重新打包工具
 
-[Github](https://github.com/topjohnwu/Magisk/releases) is the only source where you can get official Magisk information and downloads.
+- Zygisk可在每个安卓应用的进程中运行代码下载
 
-## Useful Links
+- 搭配[KPatch-Next-Module](https://github.com/KernelSU-Next/KPatch-Next-Module)可实现KPM支持
 
-- [Installation Instruction](https://topjohnwu.github.io/Magisk/install.html)
-- [Building and Development](https://topjohnwu.github.io/Magisk/build.html)
-- [Magisk Documentation](https://topjohnwu.github.io/Magisk/)
-- [Zygisk module sample](https://github.com/topjohnwu/zygisk-module-sample)
+- 将上游老旧的Material Design 2控件替换为更加美观的Material Design 3控件
 
-## Bug Reports
+---
 
-**Only bug reports from Debug builds will be accepted.**
+## 📚 安装指导
 
-For installation issues, upload both boot image and install logs.<br>
-For Magisk issues, upload boot logcat or dmesg.<br>
-For Magisk app crashes, record and upload the logcat when the crash occurs.
+- 查看 [Magisk中文网](https://magiskcn.com/)
 
-## Translation Contributions
+## 🎨 相关文档
 
-Default string resources for the Magisk app and its stub APK are located here:
+- [安装说明](https://topjohnwu.github.io/Magisk/install.html)
+- [建筑与发展](https://topjohnwu.github.io/Magisk/build.html)
+- [Magisk文档](https://topjohnwu.github.io/Magisk/)
+- [Zygisk模块实例](https://github.com/topjohnwu/zygisk-module-sample)
 
+## 🌏 关于翻译
+Magisk 应用及其存根 APK 的默认字符串资源位于此处：
 - `app/core/src/main/res/values/strings.xml`
 - `app/stub/src/main/res/values/strings.xml`
 
-Translate each and place them in the respective locations (`[module]/src/main/res/values-[lang]/strings.xml`).
+## 🔧 漏洞报告
 
-## License
+> [!Note]
+>
+> 1. 对于安装问题，请上传启动镜像和安装日志
+> 2. 对于Magisk的问题，请上传日志
+> 3. 对于Magisk App崩溃，崩溃时录制并上传视频
 
-    Magisk, including all git submodules are free software:
-    you can redistribute it and/or modify it under the terms of the
-    GNU General Public License as published by the Free Software Foundation,
-    either version 3 of the License, or (at your option) any later version.
+## 🙏 开源致谢
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+- [Magisk](https://github.com/vvb2060/Magisk): 上游
+- [KPatch-Next-Module](https://github.com/KernelSU-Next/KPatch-Next-Module): 内核模块实现的关键部分
+- [FolkPatch](https://github.com/matsuzaka-yuki/FolkPatch): 漂亮的README格式
+- [Magisk Delta](https://这个项目可能已经停更了): 灵感来源于该项目的25210版本
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+## 🚀 赞助开发
+
+- [magiskdonate](https://paypal.me/magiskdonate) (Magisk开发者团队)
