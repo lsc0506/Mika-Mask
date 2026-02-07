@@ -19,6 +19,7 @@
         style="@style/WidgetFoundation.Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_corner_radius"
         android:onClick="@{() -> listener.onItemPressed(item)}"
         tools:layout_gravity="center">
 

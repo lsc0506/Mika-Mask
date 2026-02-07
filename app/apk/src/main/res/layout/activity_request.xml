@@ -15,6 +15,7 @@
         style="@style/WidgetFoundation.Card.Elevated"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/home_card_corner_radius"
         android:layout_gravity="center">
 
         <LinearLayout

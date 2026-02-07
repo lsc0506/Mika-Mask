@@ -50,6 +50,7 @@
                 goneUnless="@{viewModel.noticeVisible}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/card_corner_radius"
                 android:layout_marginStart="@dimen/l1"
                 android:layout_marginEnd="@dimen/l1"
                 android:layout_marginBottom="@dimen/l1"
@@ -123,13 +124,14 @@
                 android:text="@string/uninstall_magisk_title"
                 android:textAllCaps="false"
                 android:textSize="12sp"
-                app:cornerRadius="@dimen/r1"
+                app:cardCornerRadius="@dimen/card_corner_radius"
                 app:icon="@drawable/ic_delete_md2" />
 
             <com.google.android.material.card.MaterialCardView
                 style="@style/WidgetFoundation.Card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/home_card_corner_radius"
                 android:layout_gravity="bottom"
                 android:layout_marginStart="@dimen/l1"
                 android:layout_marginEnd="@dimen/l1"
@@ -192,6 +194,7 @@
                 style="@style/WidgetFoundation.Card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/home_card_corner_radius"
                 android:layout_gravity="bottom"
                 android:layout_margin="@dimen/l1"
                 android:focusable="false">

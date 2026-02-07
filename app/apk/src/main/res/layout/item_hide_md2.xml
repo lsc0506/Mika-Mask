@@ -21,6 +21,7 @@
         style="@style/WidgetFoundation.Card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/home_card_corner_radius"
         android:focusable="false"
         tools:layout_gravity="center"
         tools:layout_marginBottom="@dimen/l1">
