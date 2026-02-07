@@ -60,6 +60,9 @@ object LanguageSystem : BaseSettingsItem.Blank() {
 object Theme : BaseSettingsItem.Blank() {
     override val icon = R.drawable.ic_paint
     override val title = CoreR.string.section_theme.asText()
+    override fun refresh() {
+        isEnabled = false
+    }
 }
 
 // --- App
