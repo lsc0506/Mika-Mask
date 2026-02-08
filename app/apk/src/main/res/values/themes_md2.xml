@@ -56,7 +56,7 @@
         <item name="colorOnBackground">?colorOnSurface</item>
         <item name="colorError">#CC0047</item>
         <item name="colorOnError">#F9F9F9</item>
-        <item name="colorOnSurface">#BA1A1A</item>
+        <item name="colorOnSurface">#1F1A1F</item>
         <item name="colorOnSurfaceVariant">#BF444444</item>
         <item name="colorDisabled">#000000</item>
         <item name="colorDisabledVariant">#66808080</item>
