@@ -43,22 +43,22 @@
     <!--1st party themes-->
 
     <style name="ThemeFoundationMD2.Piplup">
-        <item name="colorPrimary">#4EAFF5</item>
+        <item name="colorPrimary">#1F182B</item>
         <item name="colorPrimaryVariant">#804EAFF5</item>
-        <item name="colorSecondary">#3E78AF</item>
+        <item name="colorSecondary">#1F182B</item>
         <item name="colorSecondaryVariant">#803E78AF</item>
-        <item name="colorSurface">#F9F9F9</item>
-        <item name="colorSurfaceVariant">#EEEEEE</item>
+        <item name="colorSurface">#FFFBFF</item>
+        <item name="colorSurfaceVariant">#F8F2FC</item>
         <item name="colorSurfaceSurfaceVariant">?colorSurface</item>
-        <item name="colorOnPrimary">#F9F9F9</item>
+        <item name="colorOnPrimary">#FFFBFF</item>
         <item name="colorOnPrimaryVariant">#D9E6E6E6</item>
-        <item name="colorOnSecondary">#F9F9F9</item>
+        <item name="colorOnSecondary">#FFFBFF</item>
         <item name="colorOnBackground">?colorOnSurface</item>
         <item name="colorError">#CC0047</item>
         <item name="colorOnError">#F9F9F9</item>
-        <item name="colorOnSurface">#444444</item>
+        <item name="colorOnSurface">#BA1A1A</item>
         <item name="colorOnSurfaceVariant">#BF444444</item>
-        <item name="colorDisabled">#808080</item>
+        <item name="colorDisabled">#000000</item>
         <item name="colorDisabledVariant">#66808080</item>
     </style>
 
